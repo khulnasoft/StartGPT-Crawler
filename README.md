@@ -1,8 +1,6 @@
-# GPT Crawler <!-- omit from toc -->
+# StartGPT Crawler <!-- omit from toc -->
 
 Crawl a site to generate knowledge files to create your own custom GPT from one or multiple URLs
-
-![Gif showing the crawl run](https://github.com/khulnasoft/startgpt-crawler/assets/844291/feb8763a-152b-4708-9c92-013b5c70d2f2)
 
 - [Example](#example)
 - [Get started](#get-started)
@@ -134,8 +132,6 @@ Use this option for UI access to your generated knowledge that you can easily sh
 6. Under "Knowledge" choose "Upload a file" and upload the file you generated
 7. if you get an error about the file being too large, you can try to split it into multiple files and upload them separately using the option maxFileSize in the config.ts file or also use tokenization to reduce the size of the file with the option maxTokens in the config.ts file
 
-![Gif of how to upload a custom GPT](https://github.com/khulnasoft/startgpt-crawler/assets/844291/22f27fb5-6ca5-4748-9edd-6bcf00b408cf)
-
 #### Create a custom assistant
 
 Use this option for API access to your generated knowledge that you can integrate into your product.
@@ -143,21 +139,3 @@ Use this option for API access to your generated knowledge that you can integrat
 1. Go to [https://platform.openai.com/assistants](https://platform.openai.com/assistants)
 2. Click "+ Create"
 3. Choose "upload" and upload the file you generated
-
-![Gif of how to upload to an assistant](https://github.com/khulnasoft/startgpt-crawler/assets/844291/06e6ad36-e2ba-4c6e-8d5a-bf329140de49)
-
-## Contributing
-
-Know how to make this project better? Send a PR!
-
-<br>
-<br>
-
-<p align="center">
-   <a href="https://www.khulnasoft.com/m/developers">
-      <picture>
-         <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/844291/230786554-eb225eeb-2f6b-4286-b8c2-535b1131744a.png">
-         <img width="250" alt="Made with love by khulnasoft.com" src="https://user-images.githubusercontent.com/844291/230786555-a58479e4-75f3-4222-a6eb-74c5af953eac.png">
-       </picture>
-   </a>
-</p>
