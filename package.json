@@ -3,7 +3,7 @@
   "version": "1.4.0",
   "type": "module",
   "bin": {
-    "gpt-crawler": "./dist/src/cli.js"
+    "startgpt-crawler": "./dist/src/cli.js"
   },
   "description": "Crawl a site to generate knowledge files to create your own custom GPT",
   "dependencies": {
