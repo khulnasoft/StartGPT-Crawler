@@ -22,8 +22,8 @@ RUN echo "deb [signed-by=/etc/apt/keyrings/nodesource.gpg] https://deb.nodesourc
     sudo apt-get update && \
     sudo apt-get install nodejs -y
 
-# Install gpt-crawler
-RUN cd /home && git clone https://github.com/khulnasoft/StartGPT-Crawler && cd gpt-crawler && \
+# Install startgpt-crawler
+RUN cd /home && git clone https://github.com/khulnasoft/startgpt-crawler && cd gpt-crawler && \
     npm i && \
     npx playwright install && \
     npx playwright install-deps
