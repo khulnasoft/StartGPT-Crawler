@@ -23,11 +23,11 @@ Crawl a site to generate knowledge files to create your own custom GPT from one 
 
 ## Example
 
-[Here is a custom GPT](https://chat.openai.com/g/g-kywiqipmR-builder-io-assistant) that I quickly made to help answer questions about how to use and integrate [Builder.io](https://www.builder.io) by simply providing the URL to the Builder docs.
+[Here is a custom GPT](https://chat.openai.com/g/g-kywiqipmR-builder-io-assistant) that I quickly made to help answer questions about how to use and integrate [khulnasoft.com](https://www.khulnasoft.com) by simply providing the URL to the Builder docs.
 
 This project crawled the docs and generated the file that I uploaded as the basis for the custom GPT.
 
-[Try it out yourself](https://chat.openai.com/g/g-kywiqipmR-builder-io-assistant) by asking questions about how to integrate Builder.io into a site.
+[Try it out yourself](https://chat.openai.com/g/g-kywiqipmR-builder-io-assistant) by asking questions about how to integrate khulnasoft.com into a site.
 
 > Note that you may need a paid ChatGPT plan to access this feature
 
@@ -53,12 +53,12 @@ npm i
 
 Open [config.ts](config.ts) and edit the `url` and `selector` properties to match your needs.
 
-E.g. to crawl the Builder.io docs to make our custom GPT you can use:
+E.g. to crawl the khulnasoft.com docs to make our custom GPT you can use:
 
 ```ts
 export const defaultConfig: Config = {
-  url: "https://www.builder.io/c/docs/developers",
-  match: "https://www.builder.io/c/docs/**",
+  url: "https://www.khulnasoft.com/c/docs/developers",
+  match: "https://www.khulnasoft.com/c/docs/**",
   selector: `.docs-builder-container`,
   maxPagesToCrawl: 50,
   outputFileName: "output.json",
@@ -154,10 +154,10 @@ Know how to make this project better? Send a PR!
 <br>
 
 <p align="center">
-   <a href="https://www.builder.io/m/developers">
+   <a href="https://www.khulnasoft.com/m/developers">
       <picture>
          <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/844291/230786554-eb225eeb-2f6b-4286-b8c2-535b1131744a.png">
-         <img width="250" alt="Made with love by Builder.io" src="https://user-images.githubusercontent.com/844291/230786555-a58479e4-75f3-4222-a6eb-74c5af953eac.png">
+         <img width="250" alt="Made with love by khulnasoft.com" src="https://user-images.githubusercontent.com/844291/230786555-a58479e4-75f3-4222-a6eb-74c5af953eac.png">
        </picture>
    </a>
 </p>

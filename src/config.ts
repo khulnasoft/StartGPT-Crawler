@@ -9,20 +9,20 @@ const Page: z.ZodType<Page> = z.any();
 export const configSchema = z.object({
   /**
    * URL to start the crawl, if url is a sitemap, it will crawl all pages in the sitemap
-   * @example "https://www.builder.io/c/docs/developers"
-   * @example "https://www.builder.io/sitemap.xml"
+   * @example "https://www.khulnasoft.com/c/docs/developers"
+   * @example "https://www.khulnasoft.com/sitemap.xml"
    * @default ""
    */
   url: z.string(),
   /**
    * Pattern to match against for links on a page to subsequently crawl
-   * @example "https://www.builder.io/c/docs/**"
+   * @example "https://www.khulnasoft.com/c/docs/**"
    * @default ""
    */
   match: z.string().or(z.array(z.string())),
   /**
    * Pattern to match against for links on a page to exclude from crawling
-   * @example "https://www.builder.io/c/docs/**"
+   * @example "https://www.khulnasoft.com/c/docs/**"
    * @default ""
    */
   exclude: z.string().or(z.array(z.string())).optional(),
